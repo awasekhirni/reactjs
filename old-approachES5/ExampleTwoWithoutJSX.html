@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ReactJS 15.x without JSX</title>
+        <!-- react js core files -->
+    <script src="lib/react-15.3.1/build/react.js"></script>
+    <script src="lib/react-15.3.1/build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+</head>
+<body>
+    <h1>ReactJS 15x Example without JSX</h1>
+    <div id="container">
+    </div>
+    <script type="text/babel">
+   var DemoTwo = React.createClass({
+        displayName: 'DemoTwo',
+        render:function(){
+            return React.createElement("div", null, "Hello ", this.props.name);
+        }
+    });
+ ReactDOM.render(
+        React.createElement(DemoTwo, {name:"Syed Awase"}),
+        document.getElementById('container')
+    );
+  </script>
+</body>
+</html>

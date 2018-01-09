@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example with ReactJS Properties Demo</title>
+     <!-- react js core files -->
+    <script src="lib/react-15.3.1/build/react.js"></script>
+    <script src="lib/react-15.3.1/build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <div id="EmployeeApp">
+
+        </div>
+
+    </div>
+
+  <script type="text/babel">
+        var APP = React.createClass({
+            getInitialState:function(){
+                return{empName:'James Bond',
+                empId: '8'}
+            },
+            updateEmp:function(e){
+                this.setState({
+                    empName:e.target.value
+                })
+            },
+            propTypes:{
+                empName:React.PropTypes.string.isRequired,
+                empId:React.PropTypes.number.isRequired
+            },
+            render:function(){
+                return(
+                    <div>
+                        <input type="text" onChange={this.updateEmp}/>
+                          <h1>Hello {this.state.empName}</h1>
+                          <h2>Employee id: {this.state.empId}</h2>  
+                    </div>
+                )
+            }
+        });
+        ReactDOM.render(<APP empid empName='Syed Awase'/>,
+         document.getElementById('EmployeeApp'))
+    </script>
+
+</body>
+</html>

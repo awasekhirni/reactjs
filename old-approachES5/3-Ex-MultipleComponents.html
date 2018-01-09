@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- react js core files -->
+    <script src="lib/react-15.3.1/build/react.js"></script>
+    <script src="lib/react-15.3.1/build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="react-app">
+
+        </div>
+    </div>
+    <script type="text/babel">
+
+        var ClickStream = React.createClass({
+			
+			render:function(){
+				return(
+					<div>
+						<span>You have Clicked: <button onClick={this.props.localHandleClick}>Click Me :+1 </button></span>
+					</div>
+				)
+			}
+			
+		});
+
+	//result component
+//ClickCounter is a state of ClickStream Component 
+// We need to access ClickCounter 
+	var Result= React.createClass({
+		render:function(){
+			return(
+			<div> Result Value Display: <h2>{this.props.localCounter}</h2> </div>
+			)
+		}
+	});
+
+	//Main Container Component 
+
+	var Main = React.createClass({
+		getInitialState:function(){
+			return {ClickCounter:0}
+		},
+			handleClick:function(){
+				this.setState({ClickCounter:this.state.ClickCounter+1});
+			},
+		render:function(){
+			return (
+			<div>
+				<ClickStream localHandleClick={this.handleClick}></ClickStream>
+				<Result localCounter={this.state.ClickCounter}></Result>
+			</div>
+			)
+		}
+	});
+
+//binding with the view 
+//Mounting the Node 
+//Older versions it was React.render not ReactDOM.render 
+ReactDOM.render(<Main></Main>, document.getElementById('react-app'));
+    </script>
+
+</body>
+
+</html>

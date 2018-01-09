@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ReactJS Example - Refs using ColorSliders</title>
+    <!-- react js core files -->
+    <script src="lib/react-15.3.1/build/react.js"></script>
+    <script src="lib/react-15.3.1/build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+
+    <!--global stylesheets -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--end of global stylesheets-->
+
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <h1>Color Slider demo with References</h1>
+        <p>This works with older version of reactJS not with 15+ </p>
+
+
+        <div class="row">
+            <div id="ColorComponent">
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script type="text/babel">
+        var ColorAPP = React.createClass({ getInitialState:function(){ return{ red:0, green:0, blue:0 } }, updateColor:function(){ this.setState({ red:ReactDOM.findDOMNode(this.refs.red.refs.colorInput.value), green:ReactDOM.findDOMNode(this.refs.green.refs.colorInput),
+        blue:ReactDOM.findDOMNode(this.refs.blue.refs.colorInput) }) }, render:function(){ return(
+        <div>
+            <ColorSlider ref="red" update={this.updateColor}/>
+            <label>{this.state.red}</label>
+            <ColorSlider ref="green" update={this.updateColor}/>
+            <label>{this.state.green}</label>
+            <ColorSlider ref="blue" update={this.updateColor}/>
+            <label>{this.state.blue}</label>
+        </div>
+        ) } }); var ColorSlider =React.createClass({ render:function(){ return (
+        <div>
+            <input ref="colorInput" type="range" min="0" max="255" onChange={this.props.update}/>
+
+        </div>
+
+        ) } }); ReactDOM.render(
+
+
+        <ColorAPP/>, document.getElementById('ColorComponent'))
+    </script>
+
+</body>
+
+</html>

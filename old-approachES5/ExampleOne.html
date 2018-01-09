@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ReactJS first Example</title>
+    <!-- react js core files -->
+    <script src="lib/react-15.3.1/build/react.js"></script>
+    <script src="lib/react-15.3.1/build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+</head>
+<body>
+<h1>First Example with ReactJS 15x Version</h1>
+<div id="container">
+</div>
+    <script type="text/babel">
+        var APP = React.createClass({
+            render:function(){
+                return(
+                    <h1>Hello SYED AWASE!</h1>
+                )
+            }
+        });
+        ReactDOM.render(<APP/>, document.getElementById('container'))
+    </script>
+</body>
+</html>

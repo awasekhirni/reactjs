@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- react js core files -->
+    <script src="lib/react-15.3.1/build/react.js"></script>
+    <script src="lib/react-15.3.1/build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="react-app">
+
+        </div>
+    </div>
+
+    <script type="text/babel">
+        (function(){ var Component = React.createClass({ getInitialState:function(){ return{counter:0}; }, changeValue:function(){ this.setState({counter:this.state.counter+1}) }, render:function(){ return (
+        <span> Counter: <button onClick={this.changeValue}>{this.state.counter}</button> </span>) } }); ReactDOM.render(
+
+        <Component/>, document.getElementById('react-app')); })();
+
+    </script>
+</body>
+
+</html>
