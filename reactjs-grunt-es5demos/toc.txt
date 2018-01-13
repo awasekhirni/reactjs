@@ -1,0 +1,13 @@
+Copyright 2015-17 TPRI-SYCLIQ www.territorialprescience.com 
+Syed Awase Khirni 
+9035433124
+sak@sycliq.com 
+awasekhirni@gmail.com 
+sak@territorialprescience.com 
+Grunt ES5 Seed 
+Table of Contents
+1.ExOne => Grunt Scaffolding template with browserify 
+2.ExTwo => one way data binding + user list iteration demo 
+3.Exthree=>reusable components demo ,stateful and stateless components 
+4.ExFour=>XHR reqeusts => WEB API + lifecycle hooks
+5. SinglePageApplication with Es5 -react router 2.8.1
