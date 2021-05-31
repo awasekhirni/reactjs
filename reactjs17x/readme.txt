@@ -4,7 +4,7 @@ Copyright 2019-20 Syed Awase Khirni awasekhirni@gmail.com
 Table of Contents (Examples projects => covering topics)
 1.cpone => nested components example with rafe using bootstrap 
 2. cptwo => nested components example with rafce using materialize-css, react-script-tag 
-3. cpthree => 
+3. cpthree => one way binding with rce (react class export) + model+ map iterator to iterate over a list of users
 4. cpfour => 
 5. cpfive => 
 6. cpsix => 
