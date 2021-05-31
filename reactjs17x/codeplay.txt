@@ -1,0 +1,15 @@
+Copyright 2019-20 Awase Khirni Syed
+awasekhirni@gmail.com www.elain-technologies.com 
+
+npm init -y
+npm install react 
+npx create-react-app cpone
+cd cpone 
+npm start
+http://localhost:3000  
+
+install the following extensions for VSCODE for reactjs 
+1.ES7 React/Redux/GraphQL/React-Native snippets
+dsznajder.es7-react-js-snippets
+dsznajder
+
