@@ -1,0 +1,1724 @@
+﻿"element","example","attributes","globalattributesurl","eventattr_url"
+"<a>","<a href=""https://www.w3schools.com"">Visit W3Schools.com!</a>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:35%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_a_download.asp"">download</a></td>
+    <td><i>filename</i></td>
+    <td>Specifies that the target will be downloaded when a user clicks on the hyperlink</td>
+  </tr>
+  <tr>
+    <td><a href=""att_a_href.asp"">href</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the URL of the page the link goes to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_a_hreflang.asp"">hreflang</a></td>
+    <td><i>language_code</i></td>
+    <td>Specifies the language of the linked document</td>
+  </tr>
+  <tr>
+    <td><a href=""att_a_media.asp"">media</a></td>
+    <td><i>media_query</i></td>
+    <td>Specifies what media/device the linked document is optimized for</td>
+  </tr>
+  <tr>
+    <td><a href=""att_a_ping.asp"">ping</a></td>
+    <td><em>list_of_URLs</em></td>
+    <td>Specifies a space-separated list of URLs to which, when the link is 
+    followed, post requests with the body ping will be sent by the browser (in 
+    the background). Typically used for tracking.</td>
+      </tr>
+  <tr>
+    <td><a href=""att_a_referrepolicy.asp"">referrerpolicy</a></td>
+    <td>no-referrer<br>no-referrer-when-downgrade<br>origin<br>
+    origin-when-cross-origin<br>same-origin<br>strict-origin-when-cross-origin<br>unsafe-url</td>
+    <td>Specifies which referrer information to send with the link</td>
+      </tr>
+  <tr>
+    <td><a href=""att_a_rel.asp"">rel</a></td>
+    <td>alternate<br>
+ author<br>
+ bookmark<br>external<br>
+ help<br>
+ license<br>
+ next<br>
+ nofollow<br>
+ noreferrer<br>noopener<br>
+ prev<br>
+ search<br>
+ tag</td>
+    <td>Specifies the relationship between the current document and the linked document</td>
+      </tr>
+      <tr>
+    <td><a href=""att_a_target.asp"">target</a></td>
+    <td>_blank<br>
+      _parent<br>
+      _self<br>
+      _top</td>
+    <td>Specifies where to open the linked document</td>
+    </tr>
+    <tr>
+    <td><a href=""att_a_type.asp"">type</a></td>
+    <td><i>media_type</i></td>
+    <td>Specifies the media type of the linked document</td>
+    </tr>
+</tbody>","https://www.w3schools.com/tags/ref_standardattributes.asp","https://www.w3schools.com/tags/ref_eventattributes.asp"
+"<abbr>","The <abbr title=""World Health Organization"">WHO</abbr> was founded in 1948."," "," "," "
+"<acronym>","The <abbr title=""World Health Organization"">WHO</abbr> was founded in 1948."," "," "," "
+"<address>","<address> Written by <a href=""mailto:webmaster@example.com"">Jon Doe</a>.<br> Visit us at:<br> Example.com<br> Box 564, Disneyland<br> USA </address>"," "," "," "
+"<applet>"," "," "," "," "
+"<area>","<img src=""workplace.jpg"" alt=""Workplace"" usemap=""#workmap"" width=""400"" height=""379"">  <map name=""workmap"">   <area shape=""rect"" coords=""34,44,270,350"" alt=""Computer"" href=""computer.htm"">   <area shape=""rect"" coords=""290,172,333,250"" alt=""Phone"" href=""phone.htm"">   <area shape=""circle"" coords=""337,300,44"" alt=""Cup of coffee"" href=""coffee.htm""> </map>","<tbody><tr>
+    <th style=""width:18%"">Attribute</th>
+    <th style=""width:27%"">Value</th>
+    <th>Description</th>
+
+  </tr>
+  <tr>
+    <td><a href=""att_area_alt.asp"">alt</a></td>
+    <td><i>text</i></td>
+    <td>Specifies an alternate text for the area. Required if the href attribute is present</td>
+  </tr>
+  <tr>
+    <td><a href=""att_area_coords.asp"">coords</a></td>
+    <td><i>coordinates</i></td>
+    <td>Specifies the coordinates of the area</td>
+  </tr>
+  <tr>
+    <td><a href=""att_area_download.asp"">download</a></td>
+    <td><i>filename</i></td>
+    <td>Specifies that the target will be downloaded when a user clicks on the hyperlink</td>
+  </tr>
+  <tr>
+    <td><a href=""att_area_href.asp"">href</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the hyperlink target for the area</td>
+  </tr>
+  <tr>
+    <td><a href=""att_area_hreflang.asp"">hreflang</a></td>
+    <td><i>language_code</i></td>
+    <td>Specifies the language of the target URL</td>
+  </tr>
+  <tr>
+    <td><a href=""att_area_media.asp"">media</a></td>
+    <td><i>media query</i></td>
+    <td>Specifies what media/device the target URL is optimized for</td>
+  </tr>
+  <tr>
+    <td><a href=""att_area_referrepolicy.asp"">referrerpolicy</a></td>
+    <td>no-referrer<br>no-referrer-when-downgrade<br>origin<br>
+    origin-when-cross-origin<br>same-origin<br>strict-origin-when-cross-origin<br>unsafe-url</td>
+    <td>Specifies which referrer information to send with the link</td>
+      </tr>
+  <tr>
+    <td><a href=""att_area_rel.asp"">rel</a></td>
+    <td>alternate<br>
+ author<br>
+ bookmark<br>
+ help<br>
+ license<br>
+ next<br>
+ nofollow<br>
+ noreferrer<br>
+ prefetch<br>
+ prev<br>
+ search<br>
+ tag</td>
+    <td>Specifies the relationship between the current document and the target URL</td>
+      </tr>
+  <tr>
+    <td><a href=""att_area_shape.asp"">shape</a></td>
+    <td>
+      default<br>
+      rect<br>
+    circle<br>
+    poly</td>
+    <td>Specifies the shape of the area</td>
+  </tr>
+  <tr>
+    <td><a href=""att_area_target.asp"">target</a></td>
+    <td>_blank<br>
+      _parent<br>
+      _self<br>
+      _top<br>
+ <em>framename</em></td>
+    <td>Specifies where to open the target URL</td>
+  </tr>
+  <tr>
+    <td><a href=""att_area_type.asp"">type</a></td>
+    <td><i>media_type</i></td>
+    <td>Specifies the media type of the target URL</td>
+    </tr>
+</tbody>"," "," "
+"<article>","<article> <h2>Google Chrome</h2> <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p> </article>  <article> <h2>Mozilla Firefox</h2> <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p> </article>  <article> <h2>Microsoft Edge</h2> <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p> </article>"," ","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/jsref/dom_obj_article.asp"
+"<aside>","<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>  <aside> <h4>Epcot Center</h4> <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p> </aside>"," ","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/jsref/dom_obj_aside.asp"
+"<audio>","<audio controls>   <source src=""horse.ogg"" type=""audio/ogg"">   <source src=""horse.mp3"" type=""audio/mpeg"">   Your browser does not support the audio tag. </audio>","<tbody><tr>
+<th style=""width:25%"">Browser</th>
+<th style=""width:25%"">MP3</th>
+<th style=""width:25%"">WAV</th>
+<th style=""width:25%"">OGG</th>
+</tr>
+<tr>
+<td>Edge / IE</td>
+<td>YES</td>
+<td>YES*</td>
+<td>YES*</td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>YES</td>
+<td>YES</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>Opera</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+</tbody>","https://www.w3schools.com/tags/ref_standardattributes.asp","https://www.w3schools.com/tags/ref_eventattributes.asp"
+"<b>","<p>This is normal text - <b>and this is bold text</b>.</p>"," ","https://www.w3schools.com/jsref/dom_obj_b.asp"," "
+"<base>","<head>   <base href=""https://www.w3schools.com/"" target=""_blank""> </head>  <body> <img src=""images/stickman.gif"" width=""24"" height=""39"" alt=""Stickman""> <a href=""tags/tag_base.asp"">HTML base Tag</a> </body>","<tbody><tr>
+    <th style=""width:15%"">Attribute</th>
+    <th style=""width:15%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_base_href.asp"">href</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the base URL for all relative URLs in the page</td>
+  </tr>
+  <tr>
+    <td><a href=""att_base_target.asp"">target</a></td>
+    <td>_blank<br>
+      _parent<br>
+      _self<br>
+      _top</td>
+    <td>Specifies the default target for all hyperlinks and forms in the page</td>
+  </tr>
+</tbody>"," "," "
+"<basefont>","<html> <head> <style> body {   color: red; } </style> </head> <body>  <h1>This is a heading</h1> <p>This is a paragraph.</p>  </body> </html>"," "," "," "
+"<bdi>","<ul>   <li>User <bdi>hrefs</bdi>: 60 points</li>   <li>User <bdi>jdoe</bdi>: 80 points</li>   <li>User <bdi>إيان</bdi>: 90 points</li> </ul>"," "," "," "
+"<bdo>","<bdo dir=""rtl""> This text will go right-to-left. </bdo>","<tbody><tr>
+    <th style=""width:15%"">Attribute</th>
+    <th style=""width:15%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_bdo_dir.asp"">dir</a></td>
+    <td>ltr<br>
+      rtl</td>
+    <td>Required. Specifies the text direction of the text inside the &lt;bdo&gt; element</td>
+  </tr>
+</tbody>"," "," "
+"<big>","<html> <head> <style> p.ex1 {   font-size: 30px; } p.ex2 {   font-size: 50px; } </style> </head> <body>  <p>This is a normal paragraph.</p> <p class=""ex1"">This is a bigger paragraph.</p> <p class=""ex2"">This is a much bigger paragraph.</p>  </body> </html>"," "," "," "
+"<blockquote>","<blockquote cite=""http://www.worldwildlife.org/who/index.html""> For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally. </blockquote>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_blockquote_cite.asp"">cite</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the source of the quotation</td>
+  </tr>
+</tbody>"," "," "
+"<body>","<html> <head>   <title>Title of the document</title> </head>  <body>   <h1>This is a heading</h1>   <p>This is a paragraph.</p> </body>  </html>"," ","https://www.w3schools.com/jsref/dom_obj_body.asp","https://www.w3schools.com/jsref/prop_doc_body.asp"
+"<br>","<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>"," ","https://www.w3schools.com/html/html_paragraphs.asp","https://www.w3schools.com/jsref/dom_obj_br.asp"
+"<button>","<button type=""button"">Click Me!</button>","<tbody><tr>
+    <th style=""width:25%"">Attribute</th>
+    <th style=""width:40%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_button_autofocus.asp"">autofocus</a></td>
+    <td>autofocus</td>
+    <td>Specifies that a button should automatically get focus when the page loads</td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_disabled.asp"">disabled</a></td>
+    <td>disabled</td>
+    <td>Specifies that a button should be disabled</td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_form.asp"">form</a></td>
+    <td><i>form_id</i></td>
+    <td>Specifies which form the button belongs to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_formaction.asp"">formaction</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies where to send the form-data when a form is submitted. Only for type=""submit""</td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_formenctype.asp"">formenctype</a></td>
+    <td>application/x-www-form-urlencoded<br>
+ multipart/form-data<br>
+ text/plain</td>
+    <td>Specifies how form-data should be encoded before sending it to a server. Only for type=""submit""</td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_formmethod.asp"">formmethod</a></td>
+    <td>get<br>post</td>
+    <td>Specifies how to send the form-data (which HTTP method to use). Only for type=""submit""</td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_formnovalidate.asp"">formnovalidate</a></td>
+    <td>formnovalidate</td>
+    <td>Specifies that the form-data should not be validated on submission. Only for type=""submit"" </td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_formtarget.asp"">formtarget</a></td>
+    <td>_blank<br>
+    _self<br>
+    _parent<br>
+    _top<br>
+    <i>framename</i></td>
+    <td>Specifies where to display the response after submitting the form. Only for type=""submit""</td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_name.asp"">name</a></td>
+    <td><i>name</i></td>
+    <td>Specifies a name for the button</td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_type.asp"">type</a></td>
+    <td>button<br>
+      reset<br>
+      submit</td>
+    <td>Specifies the type of button</td>
+  </tr>
+  <tr>
+    <td><a href=""att_button_value.asp"">value</a></td>
+    <td><i>text</i></td>
+    <td>Specifies an initial value for the button</td>
+  </tr>
+</tbody>","https://www.w3schools.com/jsref/dom_obj_pushbutton.asp","https://www.w3schools.com/css/css3_buttons.asp"
+"<canvas>","<canvas id=""myCanvas""> Your browser does not support the canvas tag. </canvas>  <script> var canvas = document.getElementById(""myCanvas""); var ctx = canvas.getContext(""2d""); ctx.fillStyle = ""#FF0000""; ctx.fillRect(0, 0, 80, 80); </script>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_canvas_height.asp"">height</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the height of the canvas. Default value is 150</td>
+      </tr>
+  <tr>
+    <td><a href=""att_canvas_width.asp"">width</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the width of the canvas Default value is 300</td>
+  </tr>
+</tbody>","https://www.w3schools.com/tags/ref_standardattributes.asp","https://www.w3schools.com/tags/ref_eventattributes.asp"
+"<caption>","<table>   <caption>Monthly savings</caption>   <tr>     <th>Month</th>     <th>Savings</th>   </tr>   <tr>     <td>January</td>     <td>$100</td>   </tr> </table>"," "," "," "
+"<center>","<html> <head> <style> h1 {text-align: center;} p {text-align: center;} div {text-align: center;} </style> </head> <body>  <h1>This is a heading</h1> <p>This is a paragraph.</p> <div>This is a div.</div>  </body> </html>"," "," "," "
+"<cite>","<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>"," "," "," "
+"<code> ","<p>The HTML <code>button</code> tag defines a clickable button.</p>  <p>The CSS <code>background-color</code> property defines the background color of an element.</p>","<tbody><tr>
+    <th style=""width:15%"">Tag</th>
+    <th>Description</th>
+  </tr>  
+  <tr>
+    <td><a href=""tag_samp.asp"">&lt;samp&gt;</a></td>
+    <td>Defines sample output from a computer program</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_kbd.asp"">&lt;kbd&gt;</a></td>
+    <td>Defines keyboard input</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_var.asp"">&lt;var&gt;</a></td>
+    <td>Defines a variable</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_pre.asp"">&lt;pre&gt;</a></td>
+    <td>Defines preformatted text</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/jsref/dom_obj_code.asp"," "
+"<col>","<table>   <colgroup>     <col span=""2"" style=""background-color:red"">     <col style=""background-color:yellow"">   </colgroup>   <tr>     <th>ISBN</th>     <th>Title</th>     <th>Price</th>   </tr>   <tr>     <td>3476896</td>     <td>My first HTML</td>     <td>$53</td>   </tr> </table>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_col_span.asp"">span</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the number of columns a &lt;col&gt; element should span</td>
+  </tr>
+  </tbody>"," "," "
+"<colgroup>","<table>   <colgroup>     <col span=""2"" style=""background-color:red"">     <col style=""background-color:yellow"">   </colgroup>   <tr>     <th>ISBN</th>     <th>Title</th>     <th>Price</th>   </tr>   <tr>     <td>3476896</td>     <td>My first HTML</td>     <td>$53</td>   </tr> </table>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_colgroup_span.asp"">span</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the number of columns a column group should span</td>
+  </tr>
+</tbody>","https://www.w3schools.com/jsref/dom_obj_colgroup.asp"," "
+"<data>","<ul>   <li><data value=""21053"">Cherry Tomato</data></li>   <li><data value=""21054"">Beef Tomato</data></li>   <li><data value=""21055"">Snack Tomato</data></li> </ul>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th>Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>value</td>
+    <td><em>machine-readable format</em></td>
+    <td>Specifies the machine-readable translation of the content of the element</td>
+  </tr>
+  </tbody>"," "," "
+"<datalist>","<label for=""browser"">Choose your browser from the list:</label> <input list=""browsers"" name=""browser"" id=""browser"">  <datalist id=""browsers"">   <option value=""Edge"">   <option value=""Firefox"">   <option value=""Chrome"">   <option value=""Opera"">   <option value=""Safari""> </datalist>"," "," "," "
+"<dd>","<dl>   <dt>Coffee</dt>   <dd>Black hot drink</dd>   <dt>Milk</dt>   <dd>White cold drink</dd> </dl>"," "," "," "
+"<del>","<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>","<tbody><tr>
+    <th style=""width:15%"">Attribute</th>
+    <th style=""width:32%"">Value</th>
+    <th style=""width:53%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_del_cite.asp"">cite</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies a URL to a document that explains the reason why the text was deleted/changed</td>
+  </tr>
+  <tr>
+    <td><a href=""att_del_datetime.asp"">datetime</a></td>
+    <td><i>YYYY-MM-DDThh:mm:ssTZD</i></td>
+    <td>Specifies the date and time of when the text was deleted/changed</td>
+  </tr>
+</tbody>"," "," "
+"<details>","<details>   <summary>Epcot Center</summary>   <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p> </details>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th>Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_details_open.asp"">open</a></td>
+    <td>open</td>
+    <td>Specifies that the details should be visible (open) to the user</td>
+  </tr>
+</tbody>","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/jsref/dom_obj_details.asp"
+"<dfn> ","<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>"," "," ","https://www.w3schools.com/tags/ref_standardattributes.asp"
+"<dialog>","<dialog open>This is an open dialog window</dialog>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th>Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_dialog_open.asp"">open</a></td>
+    <td>open</td>
+    <td>Specifies that the dialog element is active and that the user can interact with it</td>
+  </tr>
+</tbody>"," "," "
+"<dir>","<ul>   <li>html</li>   <li>xhtml</li>   <li>css</li> </ul> "," "," "," "
+"<div>","<html> <head> <style> .myDiv {   border: 5px outset red;   background-color: lightblue;   text-align: center; } </style> </head> <body>  <div class=""myDiv"">   <h2>This is a heading in a div element</h2>   <p>This is some text in a div element.</p> </div>  </body> </html>"," ","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/html/html_blocks.asp"
+"<dl>","<dl>   <dt>Coffee</dt>   <dd>Black hot drink</dd>   <dt>Milk</dt>   <dd>White cold drink</dd> </dl>"," "," "," "
+"<dt>","<dl>   <dt>Coffee</dt>   <dd>Black hot drink</dd>   <dt>Milk</dt>   <dd>White cold drink</dd> </dl>"," "," "," "
+"<em> ","<p>You <em>have</em> to hurry up!</p>  <p>We <em>cannot</em> live like this.</p> "," "," "," "
+"<embed>","<embed type=""image/jpg"" src=""pic_trulli.jpg"" width=""300"" height=""200"">","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_embed_height.asp"">height</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the height of the embedded content</td>
+  </tr>
+  <tr>
+    <td><a href=""att_embed_src.asp"">src</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the address of the external file to embed</td>
+  </tr>
+  <tr>
+    <td><a href=""att_embed_type.asp"">type</a></td>
+    <td><i>media_type</i></td>
+    <td>Specifies the media type of the embedded content</td>
+  </tr>
+  <tr>
+    <td><a href=""att_embed_width.asp"">width</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the width of the embedded content</td>
+  </tr>
+</tbody>"," "," "
+"<fieldset>","<form action=""/action_page.php"">   <fieldset>     <legend>Personalia:</legend>     <label for=""fname"">First name:</label>     <input type=""text"" id=""fname"" name=""fname""><br><br>     <label for=""lname"">Last name:</label>     <input type=""text"" id=""lname"" name=""lname""><br><br>     <label for=""email"">Email:</label>     <input type=""email"" id=""email"" name=""email""><br><br>     <label for=""birthday"">Birthday:</label>     <input type=""date"" id=""birthday"" name=""birthday""><br><br>     <input type=""submit"" value=""Submit"">   </fieldset> </form>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_fieldset_disabled.asp"">disabled</a></td>
+    <td>disabled</td>
+    <td>Specifies that a group of related form elements should be disabled</td>
+  </tr>
+  <tr>
+    <td><a href=""att_fieldset_form.asp"">form</a></td>
+    <td><i>form_id</i></td>
+    <td>Specifies which form the fieldset belongs to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_fieldset_name.asp"">name</a></td>
+    <td><i>text</i></td>
+    <td>Specifies a name for the fieldset</td>
+  </tr>
+</tbody>"," "," "
+"<figcaption>","<figure>   <img src=""pic_trulli.jpg"" alt=""Trulli"" style=""width:100%"">   <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption> </figure>"," "," "," "
+"<figure>","<figure>   <img src=""pic_trulli.jpg"" alt=""Trulli"" style=""width:100%"">   <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption> </figure>"," ","https://www.w3schools.com/jsref/dom_obj_figure.asp"," "
+"<font>","<p style=""color:red"">This is a paragraph.</p> <p style=""color:blue"">This is another paragraph.</p>"," "," "," "
+"<footer>","<footer>   <p>Author: Hege Refsnes</p>   <p><a href=""mailto:hege@example.com"">hege@example.com</a></p> </footer>"," ","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/jsref/dom_obj_footer.asp"
+"<form>","<form action=""/action_page.php"" method=""get"">   <label for=""fname"">First name:</label>   <input type=""text"" id=""fname"" name=""fname""><br><br>   <label for=""lname"">Last name:</label>   <input type=""text"" id=""lname"" name=""lname""><br><br>   <input type=""submit"" value=""Submit""> </form>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:37%"">Value</th>
+    <th style=""width:43%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_form_accept_charset.asp"">accept-charset</a></td>
+    <td><i>character_set</i></td>
+    <td>Specifies the character encodings that are to be used for the form submission</td>
+  </tr>
+  <tr>
+    <td><a href=""att_form_action.asp"">action</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies where to send the form-data when a form is submitted</td>
+  </tr>
+  <tr>
+    <td><a href=""att_form_autocomplete.asp"">autocomplete</a></td>
+    <td>on<br>off</td>
+    <td>Specifies whether a form should have autocomplete on or off</td>
+  </tr>
+  <tr>
+    <td><a href=""att_form_enctype.asp"">enctype</a></td>
+    <td>application/x-www-form-urlencoded<br>
+ multipart/form-data<br>
+ text/plain</td>
+    <td>Specifies how the form-data should be encoded when submitting it to the server (only for method=""post"")</td>
+  </tr>
+  <tr>
+    <td><a href=""att_form_method.asp"">method</a></td>
+    <td>get<br>
+      post</td>
+    <td>Specifies the HTTP method to use when sending form-data</td>
+  </tr>
+  <tr>
+    <td><a href=""att_form_name.asp"">name</a></td>
+    <td><i>text</i></td>
+    <td>Specifies the name of a form</td>
+  </tr>
+  <tr>
+    <td><a href=""att_form_novalidate.asp"">novalidate</a></td>
+    <td>novalidate</td>
+    <td>Specifies that the form should not be validated when submitted</td>
+  </tr>
+  <tr>
+    <td><a href=""att_form_rel.asp"">rel</a></td>
+    <td>external<br>help<br>license<br>next<br>nofollow<br>noopener<br>
+    noreferrer<br>opener<br>prev<br>search</td>
+    <td>Specifies the relationship between a linked resource and the current 
+    document</td>
+  </tr>
+  <tr>
+    <td><a href=""att_form_target.asp"">target</a></td>
+    <td>_blank<br>
+      _self<br>
+      _parent<br>
+      _top</td>
+    <td>Specifies where to display the response that is received after submitting the form</td>
+  </tr>
+</tbody>","https://www.w3schools.com/css/css_form.asp"," "
+"<frame>","<iframe src=""https://www.w3schools.com""></iframe>"," "," "," "
+"<frameset>","<iframe src=""https://www.w3schools.com""></iframe>"," "," "," "
+"<h1>","<h1>This is heading 1</h1> <h2>This is heading 2</h2> <h3>This is heading 3</h3> <h4>This is heading 4</h4> <h5>This is heading 5</h5> <h6>This is heading 6</h6>"," ","https://www.w3schools.com/jsref/dom_obj_heading.asp"," "
+"<head>","<!DOCTYPE html> <html lang=""en""> <head>   <title>Title of the document</title> </head> <body>  <h1>This is a heading</h1> <p>This is a paragraph.</p>  </body> </html>"," ","https://www.w3schools.com/jsref/dom_obj_head.asp"," "
+"<header>","<article>   <header>     <h1>A heading here</h1>     <p>Posted by John Doe</p>     <p>Some additional information here</p>   </header>   <p>Lorem Ipsum dolor set amet....</p> </article>"," ","https://www.w3schools.com/jsref/dom_obj_header.asp"," "
+"<hr>","<h1>The Main Languages of the Web</h1>  <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>  <hr>  <p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>  <hr>  <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>"," "," "," "
+"<html>","<!DOCTYPE html> <html lang=""en""> <head>   <title>Title of the document</title> </head> <body>  <h1>This is a heading</h1> <p>This is a paragraph.</p>  </body> </html>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:35%"">Value</th>
+    <th style=""width:45%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_html_xmlns.asp"">xmlns</a></td>
+    <td>http://www.w3.org/1999/xhtml</td>
+    <td>Specifies the XML namespace attribute (If you need your content to conform to XHTML)</td>
+    </tr>
+    </tbody>"," "," "
+"<i>","<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>  <p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>"," "," "," "
+"<iframe>","<iframe src=""https://www.w3schools.com"" title=""W3Schools Free Online Web Tutorials""></iframe>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:30%"">Value</th>
+    <th style=""width:50%"">Description</th>
+  </tr>
+  <tr>
+    <td>allow</td>
+    <td>&nbsp;</td>
+    <td>Specifies a feature policy for the &lt;iframe&gt;</td>
+    </tr>
+  <tr>
+    <td>allowfullscreen</td>
+    <td>true<br>false</td>
+    <td>Set to true if the &lt;iframe&gt; can activate fullscreen mode by calling the 
+    requestFullscreen() method</td>
+    </tr>
+  <tr>
+    <td>allowpaymentrequest</td>
+    <td>true<br>false</td>
+    <td>Set to true if a cross-origin &lt;iframe&gt; should be allowed to invoke the 
+    Payment Request API</td>
+    </tr>
+    <tr>
+    <td><a href=""att_iframe_height.asp"">height</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the height of an &lt;iframe&gt;. Default height is 150 pixels</td>
+      </tr>
+      <tr>
+    <td>loading</td>
+    <td>eager<br>lazy</td>
+    <td>Specifies whether a browser should load an iframe immediately or to 
+    defer loading of iframes until some conditions are met</td>
+      </tr>
+      <tr>
+    <td><a href=""att_iframe_name.asp"">name</a></td>
+    <td><i>text</i></td>
+    <td>Specifies the name of an &lt;iframe&gt;</td>
+      </tr>
+      <tr>
+    <td><a href=""att_iframe_referrerpolicy.asp"">referrerpolicy</a></td>
+    <td>no-referrer<br>no-referrer-when-downgrade<br>origin<br>
+    origin-when-cross-origin<br>same-origin<br>strict-origin-when-cross-origin<br>unsafe-url</td>
+    <td>Specifies which referrer information to send when 
+    fetching the iframe </td>
+    </tr>
+      <tr>
+    <td><a href=""att_iframe_sandbox.asp"">sandbox</a></td>
+    <td>allow-forms<br>allow-pointer-lock<br>allow-popups<br>
+      allow-same-origin<br>
+      allow-scripts<br>
+      allow-top-navigation</td>
+    <td>Enables an extra set of restrictions for the content in an &lt;iframe&gt;</td>
+    </tr>
+  <tr>
+    <td><a href=""att_iframe_src.asp"">src</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the address of the document to embed in the &lt;iframe&gt;</td>
+  </tr>
+  <tr>
+    <td><a href=""att_iframe_srcdoc.asp"">srcdoc</a></td>
+    <td><i>HTML_code</i></td>
+    <td>Specifies the HTML content of the page to show in the &lt;iframe&gt;</td>
+  </tr>
+  <tr>
+    <td><a href=""att_iframe_width.asp"">width</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the width of an &lt;iframe&gt;. Default width is 300 pixels</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/html/html_iframe.asp","https://www.w3schools.com/jsref/dom_obj_frame.asp"
+"<img>","<img src=""img_girl.jpg"" alt=""Girl in a jacket"" width=""500"" height=""600"">","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_img_alt.asp"">alt</a></td>
+    <td><i>text</i></td>
+    <td>Specifies an alternate text for an image</td>
+  </tr>
+  <tr>
+    <td>crossorigin</td>
+    <td>anonymous <br>
+ use-credentials</td>
+    <td>Allow images from third-party sites that allow cross-origin access to be used with canvas</td>
+  </tr>
+  <tr>
+    <td><a href=""att_img_height.asp"">height</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the height of an image</td>
+  </tr>
+  <tr>
+    <td><a href=""att_img_ismap.asp"">ismap</a></td>
+    <td>ismap</td>
+    <td>Specifies an image as a server-side image map</td>
+  </tr>
+  <tr>
+    <td><a href=""att_img_loading.asp"">loading</a></td>
+    <td>eager<br>lazy</td>
+    <td>Specifies whether a browser should load an image immediately or to defer 
+    loading of images until some conditions are met</td>
+  </tr>
+  <tr>
+    <td><a href=""att_img_longdesc.asp"">longdesc</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies a URL to a detailed description of an image</td>
+  </tr>
+  <tr>
+    <td><a href=""att_img_referrepolicy.asp"">referrerpolicy</a></td>
+    <td>no-referrer<br>no-referrer-when-downgrade<br>origin<br>
+    origin-when-cross-origin<br>unsafe-url</td>
+    <td>Specifies which referrer information to use when fetching an image</td>
+  </tr>
+  <tr>
+    <td>sizes</td>
+    <td><em>sizes</em></td>
+    <td>Specifies image sizes for different page layouts</td>
+  </tr>
+  <tr>
+    <td><a href=""att_img_src.asp"">src</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the path to the image</td>
+  </tr>
+  <tr>
+    <td>srcset</td>
+    <td><em>URL-list </em></td>
+    <td>Specifies a list of image files to use in different situations</td>
+  </tr>
+  <tr>
+    <td><a href=""att_img_usemap.asp"">usemap</a></td>
+    <td><i>#mapname</i></td>
+    <td>Specifies an image as a client-side image map</td>
+  </tr>
+  <tr>
+    <td><a href=""att_img_width.asp"">width</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the width of an image</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/html/html_images.asp"
+"<input>","<form action=""/action_page.php"">   <label for=""fname"">First name:</label>   <input type=""text"" id=""fname"" name=""fname""><br><br>   <label for=""lname"">Last name:</label>   <input type=""text"" id=""lname"" name=""lname""><br><br>   <input type=""submit"" value=""Submit""> </form>","<tbody><tr>
+    <th style=""width:22%"">Attribute</th>
+    <th style=""width:37%"">Value</th>
+    <th style=""width:41%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_input_accept.asp"">accept</a></td>
+    <td><em>file_extension</em><br>
+ audio/*<br>
+ video/*<br>
+ image/*<br>
+ <i>media_type</i></td>
+    <td>Specifies a filter for what file types the user can pick from the file 
+    input dialog box (only for type=""file"")</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_alt.asp"">alt</a></td>
+    <td><i>text</i></td>
+    <td>Specifies an alternate text for images (only for type=""image"")</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_autocomplete.asp"">autocomplete</a></td>
+    <td>on<br>
+ off</td>
+    <td>Specifies whether an &lt;input&gt; element should have autocomplete enabled</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_autofocus.asp"">autofocus</a></td>
+    <td>autofocus</td>
+    <td>Specifies that an &lt;input&gt; element should automatically get focus when the page loads</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_checked.asp"">checked</a></td>
+    <td>checked</td>
+    <td>Specifies that an &lt;input&gt; element should be pre-selected when the page loads (for type=""checkbox"" or type=""radio"")</td>
+  </tr>
+    <tr>
+    <td><a href=""att_input_dirname.asp"">dirname</a></td>
+    <td><i>inputname</i>.dir</td>
+    <td>Specifies that the text direction will be submitted</td>
+    </tr>
+  <tr>
+    <td><a href=""att_input_disabled.asp"">disabled</a></td>
+    <td>disabled</td>
+    <td>Specifies that an &lt;input&gt; element should be disabled</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_form.asp"">form</a></td>
+    <td><i>form_id</i></td>
+    <td>Specifies the form the &lt;input&gt; element belongs to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_formaction.asp"">formaction</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the URL of the file that will process the input control when the form is submitted (for type=""submit"" and type=""image"")</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_formenctype.asp"">formenctype</a></td>
+    <td>application/x-www-form-urlencoded<br>
+ multipart/form-data<br>
+ text/plain</td>
+    <td>Specifies how the form-data should be encoded when submitting it to the server (for type=""submit"" and type=""image"")</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_formmethod.asp"">formmethod</a></td>
+    <td>get<br>post</td>
+    <td>Defines the HTTP method for sending data to the action URL (for type=""submit"" and type=""image"")</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_formnovalidate.asp"">formnovalidate</a></td>
+    <td>formnovalidate</td>
+    <td>Defines that form elements should not be validated when submitted</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_formtarget.asp"">formtarget</a></td>
+    <td>_blank<br>
+_self<br>
+_parent<br>
+_top<br>
+ <em>framename</em></td>
+    <td>Specifies where to display the response that is received after submitting the form (for type=""submit"" and type=""image"")</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_height.asp"">height</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the height of an &lt;input&gt; element (only for type=""image"")</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_list.asp"">list</a></td>
+    <td><i>datalist_id</i></td>
+    <td>Refers to a &lt;datalist&gt; element that contains pre-defined options for an &lt;input&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_max.asp"">max</a></td>
+    <td><i>number<br>
+ date</i></td>
+    <td>Specifies the maximum value for an &lt;input&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_maxlength.asp"">maxlength</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the maximum number of characters allowed in an &lt;input&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_min.asp"">min</a></td>
+    <td><i>number<br>
+ date</i></td>
+    <td>Specifies a minimum value for an &lt;input&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_minlength.asp"">minlength</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the minimum number of characters required in an &lt;input&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_multiple.asp"">multiple</a></td>
+    <td>multiple</td>
+    <td>Specifies that a user can enter more than one value in an &lt;input&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_name.asp"">name</a></td>
+    <td><i>text</i></td>
+    <td>Specifies the name of an &lt;input&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_pattern.asp"">pattern</a></td>
+    <td><em>regexp</em></td>
+    <td>Specifies a regular expression that an &lt;input&gt; element's value is checked against</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_placeholder.asp"">placeholder</a></td>
+    <td><i>text</i></td>
+    <td>Specifies a short hint that describes the expected value of an &lt;input&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_readonly.asp"">readonly</a></td>
+    <td>readonly</td>
+    <td>Specifies that an input field is read-only</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_required.asp"">required</a></td>
+    <td>required</td>
+    <td>Specifies that an input field must be filled out before submitting the form</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_size.asp"">size</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the width, in characters, of an &lt;input&gt; element</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_src.asp"">src</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the URL of the image to use as a submit button (only for 
+    type=""image"")</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_step.asp"">step</a></td>
+    <td>
+ <i>number<br></i>any</td>
+    <td>Specifies the interval between legal numbers in an input field</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_type.asp"">type</a></td>
+    <td>button<br>
+      checkbox<br>
+ color<br>
+      date <br>
+    datetime-local <br>
+ email <br>
+      file<br>
+      hidden<br>
+      image<br>
+      month <br>
+ number <br>
+      password<br>
+      radio<br>
+      range <br>
+      reset<br>
+ search<br>
+      submit<br>
+ tel<br>
+      text<br>
+ time <br>
+ url<br>
+ week </td>
+    <td>Specifies the type &lt;input&gt; element to display</td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_value.asp"">value</a></td>
+    <td><i>text</i></td>
+    <td>Specifies the value of an &lt;input&gt; element<b><br>
+ &nbsp;</b></td>
+  </tr>
+  <tr>
+    <td><a href=""att_input_width.asp"">width</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the width of an &lt;input&gt; element (only for type=""image"")</td>
+  </tr>
+</tbody>","https://www.w3schools.com/tags/ref_eventattributes.asp"," "
+"<ins>","<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>","<tbody><tr>
+    <th style=""width:13%"">Attribute</th>
+    <th style=""width:32%"">Value</th>
+    <th style=""width:55%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_ins_cite.asp"">cite</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies a URL to a document that explains the reason why the text was inserted/changed</td>
+  </tr>
+  <tr>
+    <td><a href=""att_ins_datetime.asp"">datetime</a></td>
+    <td><i>YYYY-MM-DDThh:mm:ssTZD</i></td>
+    <td>Specifies the date and time when the text was inserted/changed</td>
+  </tr>
+</tbody>"," "," "
+"<kbd> ","<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>  <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>","<tbody><tr>
+    <th style=""width:15%"">Tag</th>
+    <th>Description</th>
+  </tr>  
+  <tr>
+    <td><a href=""tag_code.asp"">&lt;code&gt;</a></td>
+    <td>Defines a piece of computer code</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_samp.asp"">&lt;samp&gt;</a></td>
+    <td>Defines sample output from a computer program</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_var.asp"">&lt;var&gt;</a></td>
+    <td>Defines a variable</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_pre.asp"">&lt;pre&gt;</a></td>
+    <td>Defines preformatted text</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/jsref/dom_obj_kbd.asp"," "
+"<label>","<form action=""/action_page.php"">   <label for=""male"">Male</label>   <input type=""radio"" name=""gender"" id=""male"" value=""male""><br>   <label for=""female"">Female</label>   <input type=""radio"" name=""gender"" id=""female"" value=""female""><br>   <label for=""other"">Other</label>   <input type=""radio"" name=""gender"" id=""other"" value=""other""><br><br>   <input type=""submit"" value=""Submit""> </form>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_label_for.asp"">for</a></td>
+    <td><i>element_id</i></td>
+    <td>Specifies the id of the form element the label should be bound to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_label_form.asp"">form</a></td>
+    <td><i>form_id</i></td>
+    <td>Specifies which form the label belongs to</td>
+  </tr>
+</tbody>"," "," "
+"<legend>","<form action=""/action_page.php"">   <fieldset>     <legend>Personalia:</legend>     <label for=""fname"">First name:</label>     <input type=""text"" id=""fname"" name=""fname""><br><br>     <label for=""lname"">Last name:</label>     <input type=""text"" id=""lname"" name=""lname""><br><br>     <label for=""email"">Email:</label>     <input type=""email"" id=""email"" name=""email""><br><br>     <label for=""birthday"">Birthday:</label>     <input type=""date"" id=""birthday"" name=""birthday""><br><br>     <input type=""submit"" value=""Submit"">   </fieldset> </form>"," "," "," "
+"<li>","<ol>   <li>Coffee</li>   <li>Tea</li>   <li>Milk</li> </ol>  <ul>   <li>Coffee</li>   <li>Tea</li>   <li>Milk</li> </ul>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_li_value.asp"">value</a></td>
+    <td><i>number</i></td>
+    <td>Only for &lt;ol&gt; lists. Specifies the start value of a list item. The 
+    following list items will increment from that number</td>
+  </tr>
+</tbody>","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/html/html_lists.asp"
+"<link>","<head>   <link rel=""stylesheet"" href=""styles.css""> </head>","<tbody><tr>
+    <th style=""width:15%"">Attribute</th>
+    <th style=""width:25%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td>crossorigin</td>
+    <td>anonymous<br>use-credentials</td>
+    <td>Specifies how the element handles cross-origin requests</td>
+  </tr>
+  <tr>
+    <td><a href=""att_link_href.asp"">href</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the location of the linked document</td>
+  </tr>
+  <tr>
+    <td><a href=""att_link_hreflang.asp"">hreflang</a></td>
+    <td><i>language_code</i></td>
+    <td>Specifies the language of the text in the linked document</td>
+  </tr>
+  <tr>
+    <td><a href=""att_link_media.asp"">media</a></td>
+    <td><em>media_query</em></td>
+    <td>Specifies on what device the linked document will be displayed</td>
+  </tr>
+  <tr>
+    <td><a href=""att_iframe_referrerpolicy.asp"">referrerpolicy</a></td>
+    <td>no-referrer<br>no-referrer-when-downgrade<br>origin<br>
+    origin-when-cross-origin<br>unsafe-url</td>
+    <td>Specifies which referrer to use when fetching the resource</td>
+  </tr>
+  <tr>
+    <td><a href=""att_link_rel.asp"">rel</a></td>
+    <td>alternate<br>
+ author<br>
+ dns-prefetch<br>help<br>
+ icon<br>
+ license<br>
+ next<br>
+ pingback<br>preconnect<br>
+ prefetch<br>preload<br>prerender<br>
+ prev<br>
+ search<br>
+ stylesheet</td>
+    <td>Required. Specifies the relationship between the current document and the linked document</td>
+  </tr>
+  <tr>
+    <td><a href=""att_link_sizes.asp"">sizes</a></td>
+    <td><i>Height</i>x<i>Width<br>
+ </i>any</td>
+    <td>Specifies the size of the linked resource. Only for rel=""icon""</td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td>&nbsp;</td>
+    <td>Defines a preferred or an alternate stylesheet</td>
+  </tr>
+  <tr>
+    <td><a href=""att_link_type.asp"">type</a></td>
+    <td><em>media_type</em></td>
+    <td>Specifies the media type of the linked document</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/jsref/dom_obj_link.asp"," "
+"<main>","<main>   <h1>Most Popular Browsers</h1>   <p>Chrome, Firefox, and Edge are the most used browsers today.</p>    <article>     <h2>Google Chrome</h2>     <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>   </article>    <article>     <h2>Mozilla Firefox</h2>     <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>   </article>    <article>     <h2>Microsoft Edge</h2>     <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>   </article> </main>"," "," "," "
+"<map>","<img src=""workplace.jpg"" alt=""Workplace"" usemap=""#workmap"" width=""400"" height=""379"">  <map name=""workmap"">   <area shape=""rect"" coords=""34,44,270,350"" alt=""Computer"" href=""computer.htm"">   <area shape=""rect"" coords=""290,172,333,250"" alt=""Phone"" href=""phone.htm"">   <area shape=""circle"" coords=""337,300,44"" alt=""Cup of coffee"" href=""coffee.htm""> </map>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_map_name.asp"">name</a></td>
+    <td><i>mapname</i></td>
+    <td>Required. Specifies the name of the image map</td>
+  </tr>
+</tbody>"," "," "
+"<mark>","<p>Do not forget to buy <mark>milk</mark> today.</p>"," "," "," "
+"<meta>","<head>   <meta charset=""UTF-8"">   <meta name=""description"" content=""Free Web tutorials"">   <meta name=""keywords"" content=""HTML, CSS, JavaScript"">   <meta name=""author"" content=""John Doe"">   <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> </head>","<tbody><tr>
+    <th style=""width:17%"">Attribute</th>
+    <th style=""width:23%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_meta_charset.asp"">charset</a></td>
+    <td><i>character_set</i></td>
+    <td>Specifies the character encoding for the HTML document </td>
+  </tr>
+  <tr>
+    <td><a href=""att_meta_content.asp"">content</a></td>
+    <td><i>text</i></td>
+    <td>Specifies the value associated with the http-equiv or name attribute</td>
+  </tr>
+  <tr>
+    <td><a href=""att_meta_http_equiv.asp"">http-equiv</a></td>
+    <td>content-security-policy<br>content-type<br>
+      default-style<br>refresh</td>
+    <td>Provides an HTTP header for the information/value of the content attribute</td>
+    </tr>
+  <tr>
+    <td><a href=""att_meta_name.asp"">name</a></td>
+    <td>application-name<br>
+      author<br>
+      description<br>
+      generator<i><br>
+      </i>keywords<br>viewport</td>
+    <td>Specifies a name for the metadata</td>
+  </tr>
+</tbody>"," "," "
+"<meter>","<label for=""disk_c"">Disk usage C:</label> <meter id=""disk_c"" value=""2"" min=""0"" max=""10"">2 out of 10</meter><br>  <label for=""disk_d"">Disk usage D:</label> <meter id=""disk_d"" value=""0.6"">60%</meter>","<tbody><tr>
+    <th style=""width:17%"">Attribute</th>
+    <th style=""width:25%"">Value</th>
+    <th style=""width:58%"">Description</th>
+  </tr>
+    <tr>
+    <td><a href=""att_meter_form.asp"">form</a></td>
+    <td><i>form_id</i></td>
+    <td>Specifies which form the &lt;meter&gt; element belongs to</td>
+    </tr>
+  <tr>
+    <td><a href=""att_meter_high.asp"">high</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the range that is considered to be a high value</td>
+  </tr>
+  <tr>
+    <td><a href=""att_meter_low.asp"">low</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the range that is considered to be a low value</td>
+  </tr>
+  <tr>
+    <td><a href=""att_meter_max.asp"">max</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the maximum value of the range</td>
+  </tr>
+  <tr>
+    <td><a href=""att_meter_min.asp"">min</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the minimum value of the range. Default value is 0</td>
+  </tr>
+  <tr>
+    <td><a href=""att_meter_optimum.asp"">optimum</a></td>
+    <td><i>number</i></td>
+    <td>Specifies what value is the optimal value for the gauge</td>
+  </tr>
+  <tr>
+    <td><a href=""att_meter_value.asp"">value</a></td>
+    <td><i>number</i></td>
+    <td>Required. Specifies the current value of the gauge</td>
+  </tr>
+</tbody>","https://www.w3schools.com/jsref/dom_obj_meter.asp"," "
+"<nav>","<nav>   <a href=""/html/"">HTML</a> |   <a href=""/css/"">CSS</a> |   <a href=""/js/"">JavaScript</a> |   <a href=""/python/"">Python</a> </nav>"," "," "," "
+"<noframes>","<iframe src=""https://www.w3schools.com""></iframe>"," "," "," "
+"<noscript>","<script> document.write(""Hello World!"") </script> <noscript>Your browser does not support JavaScript!</noscript>"," "," "," "
+"<object>","<object data=""pic_trulli.jpg"" width=""300"" height=""200""></object>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_object_data.asp"">data</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the URL of the resource to be used by the object</td>
+  </tr>
+  <tr>
+    <td><a href=""att_object_form.asp"">form</a></td>
+    <td><i>form_id</i></td>
+    <td>Specifies which form the object belongs to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_object_height.asp"">height</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the height of the object</td>
+  </tr>
+    <tr>
+    <td><a href=""att_object_name.asp"">name</a></td>
+    <td><i>name</i></td>
+    <td>Specifies a name for the object</td>
+    </tr>
+    <tr>
+    <td><a href=""att_object_type.asp"">type</a></td>
+    <td><i>media_type</i></td>
+    <td>Specifies the media type of data specified in the data attribute</td>
+    </tr>
+    <tr>
+    <td>typemustmatch</td>
+    <td><em>true/false</em></td>
+    <td>Specifies whether the type attribute and the actual content of the 
+    resource must match to be displayed</td>
+    </tr>
+    <tr>
+    <td><a href=""att_object_usemap.asp"">usemap</a></td>
+    <td><em>#mapname</em></td>
+    <td>Specifies the name of a client-side image map to be used with the object</td>
+    </tr>
+  <tr>
+    <td><a href=""att_object_width.asp"">width</a></td>
+    <td><i>pixels</i></td>
+    <td>Specifies the width of the object</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/html/html_object.asp","https://www.w3schools.com/jsref/dom_obj_object.asp"
+"<ol>","<ol>   <li>Coffee</li>   <li>Tea</li>   <li>Milk</li> </ol>  <ol start=""50"">   <li>Coffee</li>   <li>Tea</li>   <li>Milk</li> </ol>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_ol_reversed.asp"">reversed</a></td>
+    <td>reversed</td>
+    <td>Specifies that the list order should be reversed (9,8,7...)</td>
+  </tr>
+  <tr>
+    <td><a href=""att_ol_start.asp"">start</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the start value of an ordered list</td>
+  </tr>
+  <tr>
+    <td><a href=""att_ol_type.asp"">type</a></td>
+    <td>1<br>
+ A<br>
+    a<br>
+    I<br>
+    i</td>
+    <td>Specifies the kind of marker to use in the list</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/html/html_lists.asp","https://www.w3schools.com/jsref/dom_obj_ol.asp"
+"<optgroup>","<label for=""cars"">Choose a car:</label> <select  name=""cars"" id=""cars"">   <optgroup label=""Swedish Cars"">     <option value=""volvo"">Volvo</option>     <option value=""saab"">Saab</option>   </optgroup>   <optgroup label=""German Cars"">     <option value=""mercedes"">Mercedes</option>     <option value=""audi"">Audi</option>   </optgroup> </select>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_optgroup_disabled.asp"">disabled</a></td>
+    <td>disabled</td>
+    <td>Specifies that an option-group should be disabled</td>
+    </tr>
+  <tr>
+    <td><a href=""att_optgroup_label.asp"">label</a></td>
+    <td><i>text</i></td>
+    <td>Specifies a label for an option-group</td>
+  </tr>
+</tbody>"," "," "
+"<option>","<label for=""cars"">Choose a car:</label>  <select id=""cars"">   <option value=""volvo"">Volvo</option>   <option value=""saab"">Saab</option>   <option value=""opel"">Opel</option>   <option value=""audi"">Audi</option> </select>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_option_disabled.asp"">disabled</a></td>
+    <td>disabled</td>
+    <td>Specifies that an option should be disabled</td>
+  </tr>
+  <tr>
+    <td><a href=""att_option_label.asp"">label</a></td>
+    <td><i>text</i></td>
+    <td>Specifies a shorter label for an option</td>
+  </tr>
+  <tr>
+    <td><a href=""att_option_selected.asp"">selected</a></td>
+    <td>selected</td>
+    <td>Specifies that an option should be pre-selected when the page loads</td>
+  </tr>
+  <tr>
+    <td><a href=""att_option_value.asp"">value</a></td>
+    <td><i>text</i></td>
+    <td>Specifies the value to be sent to a server</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/jsref/dom_obj_option.asp"," "
+"<output>","<form oninput=""x.value=parseInt(a.value)+parseInt(b.value)"">   <input type=""range"" id=""a"" value=""50"">   +<input type=""number"" id=""b"" value=""25"">   =<output name=""x"" for=""a b""></output> </form>","<tbody><tr>
+    <th style=""width:15%"">Attribute</th>
+    <th style=""width:15%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_output_for.asp"">for</a></td>
+    <td><i>element_id</i></td>
+    <td>Specifies the relationship between the result of the calculation, and the elements used in the calculation</td>
+  </tr>
+  <tr>
+    <td><a href=""att_output_form.asp"">form</a></td>
+    <td><i>form_id</i></td>
+    <td>Specifies which form the output element belongs to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_output_name.asp"">name</a></td>
+    <td><i>name</i></td>
+    <td>Specifies a name for the output element</td>
+  </tr>
+</tbody>"," "," "
+"<p>","<p>This is some text in a paragraph.</p>"," ","https://www.w3schools.com/jsref/dom_obj_paragraph.asp"," "
+"<param>","<object data=""horse.wav"">   <param name=""autoplay"" value=""true""> </object>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_param_name.asp"">name</a></td>
+    <td><i>name</i></td>
+    <td>Specifies the name of a parameter</td>
+  </tr>
+  <tr>
+    <td><a href=""att_param_value.asp"">value</a></td>
+    <td><i>value</i></td>
+    <td>Specifies the value of the parameter</td>
+  </tr>
+  </tbody>"," "," "
+"<picture>","<picture>   <source media=""(min-width:650px)"" srcset=""img_pink_flowers.jpg"">   <source media=""(min-width:465px)"" srcset=""img_white_flower.jpg"">   <img src=""img_orange_flowers.jpg"" alt=""Flowers"" style=""width:auto;""> </picture>"," ","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/html/html_images_picture.asp"
+"<pre>","<pre> Text in a pre element is displayed in a fixed-width font, and it preserves both      spaces and line breaks </pre>","<tbody><tr>
+    <th style=""width:15%"">Tag</th>
+    <th>Description</th>
+  </tr>  
+  <tr>
+    <td><a href=""tag_code.asp"">&lt;code&gt;</a></td>
+    <td>Defines a piece of computer code</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_samp.asp"">&lt;samp&gt;</a></td>
+    <td>Defines sample output from a computer program</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_kbd.asp"">&lt;kbd&gt;</a></td>
+    <td>Defines keyboard input</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_var.asp"">&lt;var&gt;</a></td>
+    <td>Defines a variable</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/jsref/dom_obj_pre.asp"," "
+"<progress>","<label for=""file"">Downloading progress:</label> <progress id=""file"" value=""32"" max=""100""> 32% </progress>","<tbody><tr>
+    <th style=""width:17%"">Attribute</th>
+    <th style=""width:25%"">Value</th>
+    <th style=""width:58%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_progress_max.asp"">max</a></td>
+    <td><i>number</i></td>
+    <td>Specifies how much work the task requires in total. Default value is 1</td>
+    </tr>
+  <tr>
+    <td><a href=""att_progress_value.asp"">value</a></td>
+    <td><i>number</i></td>
+    <td>Specifies how much of the task has been completed</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/jsref/dom_obj_progress.asp"," "
+"<q>","<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q> We hope they succeed.</p>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_q_cite.asp"">cite</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the source URL of the quote</td>
+  </tr>
+  </tbody>"," "," "
+"<rp>","<ruby> 漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt> </ruby>"," "," "," "
+"<rt>","<ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>"," "," "," "
+"<ruby>","<ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>"," "," "," "
+"<s>","<p><s>Only 50 tickets left!</s></p> <p>SOLD OUT!</p>"," "," "," "
+"<samp> ","<p>Message from my computer:</p>  <p><samp>File not found.<br>Press F1 to continue</samp></p> ","<tbody><tr>
+    <th style=""width:15%"">Tag</th>
+    <th>Description</th>
+  </tr>  
+  <tr>
+    <td><a href=""tag_code.asp"">&lt;code&gt;</a></td>
+    <td>Defines a piece of computer code</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_kbd.asp"">&lt;kbd&gt;</a></td>
+    <td>Defines keyboard input</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_var.asp"">&lt;var&gt;</a></td>
+    <td>Defines a variable</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_pre.asp"">&lt;pre&gt;</a></td>
+    <td>Defines preformatted text</td>
+  </tr>
+  </tbody>"," "," "
+"<script>","<script> document.getElementById(""demo"").innerHTML = ""Hello JavaScript!""; </script>","<tbody><tr>
+    <th style=""width:15%"">Attribute</th>
+    <th style=""width:35%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_script_async.asp"">async</a></td>
+    <td>async</td>
+    <td>Specifies that the script is executed asynchronously (only for external scripts)</td>
+  </tr>
+  <tr>
+    <td><a href=""att_script_crossorigin.asp"">crossorigin</a></td>
+    <td>anonymous<br>use-credentials</td>
+    <td>Sets the mode of the request to an HTTP CORS Request</td>
+  </tr>
+  <tr>
+    <td><a href=""att_script_defer.asp"">defer</a></td>
+    <td>defer</td>
+    <td>Specifies that the script is executed when the page has finished parsing (only for external scripts)</td>
+  </tr>
+  <tr>
+    <td><a href=""att_script_integrity.asp"">integrity</a></td>
+    <td><em>filehash</em></td>
+    <td>Allows a browser to check the fetched script to ensure that the code is 
+    never loaded if the source has been manipulated</td>
+  </tr>
+  <tr>
+    <td>nomodule</td>
+    <td>True<br>False</td>
+    <td>Specifies that the script should not be executed in browsers supporting
+    <a href=""/js/js_es6.asp"">ES2015</a> modules </td>
+  </tr>
+  <tr>
+    <td><a href=""att_script_referrepolicy.asp"">referrerpolicy</a></td>
+    <td>no-referrer<br>no-referrer-when-downgrade<br>origin<br>
+    origin-when-cross-origin<br>same-origin<br>strict-origin<br>
+    strict-origin-when-cross-origin<br>unsafe-url</td>
+    <td>Specifies which referrer information to send when fetching a script</td>
+  </tr>
+  <tr>
+    <td><a href=""att_script_src.asp"">src</a></td>
+    <td><i>URL</i></td>
+    <td>Specifies the URL of an external script file</td>
+  </tr>
+  <tr>
+    <td><a href=""att_script_type.asp"">type</a></td>
+    <td><i>scripttype</i></td>
+    <td>Specifies the media type of the script</td>
+  </tr>
+  </tbody>"," ","https://www.w3schools.com/tags/ref_standardattributes.asp"
+"<section>","<section> <h2>WWF History</h2> <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p> </section>  <section> <h2>WWF's Symbol</h2> <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p> </section>"," "," "," "
+"<select>","<label for=""cars"">Choose a car:</label>  <select name=""cars"" id=""cars"">   <option value=""volvo"">Volvo</option>   <option value=""saab"">Saab</option>   <option value=""mercedes"">Mercedes</option>   <option value=""audi"">Audi</option> </select>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_select_autofocus.asp"">autofocus</a></td>
+    <td>autofocus</td>
+    <td>Specifies that the drop-down list should automatically get focus when the page loads</td>
+  </tr>
+  <tr>
+    <td><a href=""att_select_disabled.asp"">disabled</a></td>
+    <td>disabled</td>
+    <td>Specifies that a drop-down list should be disabled</td>
+  </tr>
+  <tr>
+    <td><a href=""att_select_form.asp"">form</a></td>
+    <td><i>form_id</i></td>
+    <td>Defines which form the drop-down list belongs to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_select_multiple.asp"">multiple</a></td>
+    <td>multiple</td>
+    <td>Specifies that multiple options can be selected at once</td>
+  </tr>
+  <tr>
+    <td><a href=""att_select_name.asp"">name</a></td>
+    <td><i>name</i></td>
+    <td>Defines a name for the drop-down list</td>
+  </tr>
+    <tr>
+    <td><a href=""att_select_required.asp"">required</a></td>
+    <td>required</td>
+    <td>Specifies that the user is required to select a value before submitting the form</td>
+    </tr>
+  <tr>
+    <td><a href=""att_select_size.asp"">size</a></td>
+    <td><i>number</i></td>
+    <td>Defines the number of visible options in a drop-down list</td>
+  </tr>
+</tbody>","https://www.w3schools.com/tags/ref_standardattributes.asp","https://www.w3schools.com/tags/ref_eventattributes.asp"
+"<small>","<p>This is some normal text.</p> <p><small>This is some smaller text.</small></p>"," "," "," "
+"<source>","<audio controls>   <source src=""horse.ogg"" type=""audio/ogg"">   <source src=""horse.mp3"" type=""audio/mpeg"">   Your browser does not support the audio element. </audio>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_source_media.asp"">media</a></td>
+    <td><i>media_query</i></td>
+    <td>Accepts any valid media query that would normally be defined in a CSS </td>
+  </tr>
+  <tr>
+    <td>sizes</td>
+    <td>&nbsp;</td>
+    <td>Specifies image sizes for different page layouts</td>
+  </tr>
+  <tr>
+    <td><a href=""att_source_src.asp"">src</a></td>
+    <td><i>URL</i></td>
+    <td>Required when &lt;source&gt; is used in &lt;audio&gt; and &lt;video&gt;. Specifies the URL of the media file</td>
+  </tr>
+  <tr>
+    <td><a href=""att_source_srcset.asp"">srcset</a></td>
+    <td><em>URL</em></td>
+    <td>Required when &lt;source&gt; is used in &lt;picture&gt;. Specifies the URL of the 
+    image to use in different situations</td>
+  </tr>
+  <tr>
+    <td><a href=""att_source_type.asp"">type</a></td>
+    <td><em>MIME-type</em></td>
+    <td>Specifies the MIME-type of the resource</td>
+  </tr>
+</tbody>","https://www.w3schools.com/html/html5_audio.asp","https://www.w3schools.com/jsref/dom_obj_source.asp"
+"<span>","<p>My mother has <span style=""color:blue"">blue</span> eyes.</p>"," "," "," "
+"<strike>","<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>"," "," "," "
+"<strong> ","<strong>This text is important!</strong> "," "," "," "
+"<style>","<html> <head> <style>   h1 {color:red;}   p {color:blue;} </style> </head> <body>  <h1>A heading</h1> <p>A paragraph.</p>  </body> </html>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_style_media.asp"">media</a></td>
+    <td><i>media_query</i></td>
+    <td>Specifies what media/device the media resource is optimized for</td>
+    </tr>
+  <tr>
+    <td><a href=""att_style_type.asp"">type</a></td>
+    <td>text/css</td>
+    <td>Specifies the media type of the &lt;style&gt; tag</td>
+  </tr>
+  </tbody>","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/html/html_css.asp"
+"<sub>","<p>This text contains <sub>subscript</sub> text.</p> "," "," "," "
+"<summary>","<details>   <summary>Epcot Center</summary>   <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p> </details>"," "," "," "
+"<sup>","<p>This text contains <sup>superscript</sup> text.</p>"," "," "," "
+"<svg>","<svg width=""100"" height=""100"">   <circle cx=""50"" cy=""50"" r=""40"" stroke=""green"" stroke-width=""4"" fill=""yellow"" /> </svg>"," "," "," "
+"<table>","<table>   <tr>     <th>Month</th>     <th>Savings</th>   </tr>   <tr>     <td>January</td>     <td>$100</td>   </tr> </table>"," ","https://www.w3schools.com/html/html_tables.asp","https://www.w3schools.com/jsref/dom_obj_table.asp"
+"<tbody>","<table>   <thead>     <tr>       <th>Month</th>       <th>Savings</th>     </tr>   </thead>   <tbody>     <tr>       <td>January</td>       <td>$100</td>     </tr>     <tr>       <td>February</td>       <td>$80</td>     </tr>   </tbody>   <tfoot>     <tr>       <td>Sum</td>       <td>$180</td>     </tr>   </tfoot> </table>"," ","https://www.w3schools.com/tags/ref_standardattributes.asp","https://www.w3schools.com/tags/ref_eventattributes.asp"
+"<td>","<table>   <tr>     <td>Cell A</td>     <td>Cell B</td>   </tr>   <tr>     <td>Cell C</td>     <td>Cell D</td>   </tr> </table>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_td_colspan.asp"">colspan</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the number of columns a cell should span</td>
+  </tr>
+  <tr>
+    <td><a href=""att_td_headers.asp"">headers</a></td>
+    <td><i>header_id</i></td>
+    <td>Specifies one or more header cells a cell is related to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_td_rowspan.asp"">rowspan</a></td>
+    <td><i>number</i></td>
+    <td>Sets the number of rows a cell should span</td>
+  </tr>
+</tbody>","https://www.w3schools.com/html/html_tables.asp","https://www.w3schools.com/jsref/dom_obj_tabledata.asp"
+"<template>","<button onclick=""showContent()"">Show hidden content</button>  <template>   <h2>Flower</h2>   <img src=""img_white_flower.jpg"" width=""214"" height=""204""> </template>  <script> function showContent() {   var temp = document.getElementsByTagName(""template"")[0];   var clon = temp.content.cloneNode(true);   document.body.appendChild(clon); } </script>"," "," "," "
+"<textarea>","<label for=""w3review"">Review of W3Schools:</label>  <textarea id=""w3review"" name=""w3review"" rows=""4"" cols=""50""> At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies. </textarea>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_autofocus.asp"">autofocus</a></td>
+    <td>autofocus</td>
+    <td>Specifies that a text area should automatically get focus when the page loads</td>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_cols.asp"">cols</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the visible width of a text area</td>
+  </tr>
+    <tr>
+    <td><a href=""att_textarea_dirname.asp"">dirname</a></td>
+    <td><i>textareaname</i>.dir</td>
+    <td>Specifies that the text direction of the textarea will be submitted</td>
+    </tr>
+  <tr>
+    <td><a href=""att_textarea_disabled.asp"">disabled</a></td>
+    <td>disabled</td>
+    <td>Specifies that a text area should be disabled</td>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_form.asp"">form</a></td>
+    <td><i>form_id</i></td>
+    <td>Specifies which form the text area belongs to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_maxlength.asp"">maxlength</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the maximum number of characters allowed in the text area</td>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_name.asp"">name</a></td>
+    <td><i>text</i></td>
+    <td>Specifies a name for a text area</td>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_placeholder.asp"">placeholder</a></td>
+    <td><i>text</i></td>
+    <td>Specifies a short hint that describes the expected value of a text area</td>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_readonly.asp"">readonly</a></td>
+    <td>readonly</td>
+    <td>Specifies that a text area should be read-only</td>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_required.asp"">required</a></td>
+    <td>required</td>
+    <td>Specifies that a text area is required/must be filled out</td>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_rows.asp"">rows</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the visible number of lines in a text area</td>
+  </tr>
+  <tr>
+    <td><a href=""att_textarea_wrap.asp"">wrap</a></td>
+    <td>hard<br>
+ soft</td>
+    <td>Specifies how the text in a text area is to be wrapped when submitted in a form</td>
+  </tr>
+</tbody>","https://www.w3schools.com/tags/tag_label.asp","https://www.w3schools.com/tags/ref_standardattributes.asp"
+"<tfoot>","<table>   <thead>     <tr>       <th>Month</th>       <th>Savings</th>     </tr>   </thead>   <tbody>     <tr>       <td>January</td>       <td>$100</td>     </tr>     <tr>       <td>February</td>       <td>$80</td>     </tr>   </tbody>   <tfoot>     <tr>       <td>Sum</td>       <td>$180</td>     </tr>   </tfoot> </table>"," ","https://www.w3schools.com/tags/ref_standardattributes.asp","https://www.w3schools.com/tags/ref_eventattributes.asp"
+"<th>","<table>   <tr>     <th>Month</th>     <th>Savings</th>   </tr>   <tr>     <td>January</td>     <td>$100</td>   </tr>   <tr>     <td>February</td>     <td>$80</td>   </tr> </table>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th style=""width:60%"">Description</th>
+  </tr>
+  <tr>
+    <td><a href=""att_th_abbr.asp"">abbr</a></td>
+    <td><i>text</i></td>
+    <td>Specifies an abbreviated version of the content in a header cell</td>
+  </tr>
+  <tr>
+    <td><a href=""att_th_colspan.asp"">colspan</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the number of columns a header cell should span</td>
+  </tr>
+  <tr>
+    <td><a href=""att_th_headers.asp"">headers</a></td>
+    <td><i>header_id</i></td>
+    <td>Specifies one or more header cells a cell is related to</td>
+  </tr>
+  <tr>
+    <td><a href=""att_th_rowspan.asp"">rowspan</a></td>
+    <td><i>number</i></td>
+    <td>Specifies the number of rows a header cell should span</td>
+  </tr>
+  <tr>
+    <td><a href=""att_th_scope.asp"">scope</a></td>
+    <td>col<br>
+      colgroup<br>
+      row<br>
+      rowgroup</td>
+    <td>Specifies whether a header cell is a header for a column, row, or group of columns or rows </td>
+  </tr>
+    </tbody>","https://www.w3schools.com/html/html_tables.asp","https://www.w3schools.com/jsref/dom_obj_tablehead.asp"
+"<thead>","<table>   <thead>     <tr>       <th>Month</th>       <th>Savings</th>     </tr>   </thead>   <tbody>     <tr>       <td>January</td>       <td>$100</td>     </tr>     <tr>       <td>February</td>       <td>$80</td>     </tr>   </tbody>   <tfoot>     <tr>       <td>Sum</td>       <td>$180</td>     </tr>   </tfoot> </table>"," ","https://www.w3schools.com/tags/ref_standardattributes.asp","https://www.w3schools.com/tags/ref_eventattributes.asp"
+"<time>","<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>  <p>I have a date on <time datetime=""2008-02-14 20:00"">Valentines day</time>.</p>","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:15%"">Value</th>
+    <th>Description</th>
+  </tr>
+    <tr>
+    <td><a href=""att_time_datetime.asp"">datetime</a></td>
+    <td><i>datetime</i></td>
+    <td>Represent a machine-readable format of the &lt;time&gt; element</td>
+    </tr>
+</tbody>"," "," "
+"<title>","<!DOCTYPE html> <html> <head>   <title>HTML Elements Reference</title> </head> <body>  <h1>This is a heading</h1> <p>This is a paragraph.</p>  </body> </html>"," ","https://www.w3schools.com/tags/ref_standardattributes.asp","https://www.w3schools.com/html/html_head.asp"
+"<tr>","<table>   <tr>     <th>Month</th>     <th>Savings</th>   </tr>   <tr>     <td>January</td>     <td>$100</td>   </tr>   <tr>     <td>February</td>     <td>$80</td>   </tr> </table>"," ","https://www.w3schools.com/css/css_table.asp"," "
+"<track>","<video width=""320"" height=""240"" controls>   <source src=""forrest_gump.mp4"" type=""video/mp4"">   <source src=""forrest_gump.ogg"" type=""video/ogg"">   <track src=""fgsubtitles_en.vtt"" kind=""subtitles"" srclang=""en"" label=""English"">   <track src=""fgsubtitles_no.vtt"" kind=""subtitles"" srclang=""no"" label=""Norwegian""> </video> ","<tbody><tr>
+    <th style=""width:20%"">Attribute</th>
+    <th style=""width:20%"">Value</th>
+    <th>Description</th>
+  </tr>
+    <tr>
+    <td><a href=""att_track_default.asp"">default</a></td>
+    <td>default</td>
+    <td>Specifies that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate</td>
+  </tr>
+  <tr>
+    <td><a href=""att_track_kind.asp"">kind</a></td>
+    <td>captions<br>
+ chapters<br>
+ descriptions<br>
+ metadata<br>
+ subtitles</td>
+    <td>Specifies the kind of text track</td>
+  </tr>
+  <tr>
+    <td><a href=""att_track_label.asp"">label</a></td>
+    <td><em>text</em></td>
+    <td>Specifies the title of the text track</td>
+  </tr>
+  <tr>
+    <td><a href=""att_track_src.asp"">src</a></td>
+    <td><em>URL</em></td>
+    <td>Required. Specifies the URL of the track file</td>
+  </tr>
+  <tr>
+    <td><a href=""att_track_srclang.asp"">srclang</a></td>
+    <td><i>language_code</i></td>
+    <td>Specifies the language of the track text data (required if kind=""subtitles"")</td>
+  </tr>
+</tbody>","https://www.w3schools.com/html/html5_audio.asp","https://www.w3schools.com/jsref/dom_obj_track.asp"
+"<tt>","<p style=""font-family:'Lucida Console', monospace"">This text is monospace text.</p>"," "," "," "
+"<u>","<p>This is some <u>mispeled</u> text.</p>"," "," "," "
+"<ul>","<ul>   <li>Coffee</li>   <li>Tea</li>   <li>Milk</li> </ul>"," ","https://www.w3schools.com/html/html_lists.asp","https://www.w3schools.com/jsref/dom_obj_ul.asp"
+"<var> ","<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p> ","<tbody><tr>
+    <th style=""width:15%"">Tag</th>
+    <th>Description</th>
+  </tr>  
+  <tr>
+    <td><a href=""tag_code.asp"">&lt;code&gt;</a></td>
+    <td>Defines a piece of computer code</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_samp.asp"">&lt;samp&gt;</a></td>
+    <td>Defines sample output from a computer program</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_kbd.asp"">&lt;kbd&gt;</a></td>
+    <td>Defines keyboard input</td>
+  </tr>
+  <tr>
+    <td><a href=""tag_pre.asp"">&lt;pre&gt;</a></td>
+    <td>Defines preformatted text</td>
+  </tr>
+  </tbody>"," "," "
+"<video>","<video width=""320"" height=""240"" controls>   <source src=""movie.mp4"" type=""video/mp4"">   <source src=""movie.ogg"" type=""video/ogg"">   Your browser does not support the video tag. </video>","<tbody><tr>
+<th style=""width:25%"">Browser</th>
+<th style=""width:25%"">MP4</th>
+<th style=""width:25%"">WebM</th>
+<th style=""width:25%"">Ogg</th>
+</tr>
+<tr>
+<td>Edge</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>YES</td>
+<td>YES</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>Opera</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+</tbody>","https://www.w3schools.com/tags/ref_eventattributes.asp","https://www.w3schools.com/tags/ref_av_dom.asp"
+"<wbr>","<p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>"," "," "," "
+"<!--...-->","<!--This is a comment. Comments are not displayed in the browser-->  <p>This is a paragraph.</p>"," ","https://www.w3schools.com/tags/ref_eventattributes.asp"," "
+"<!DOCTYPE>","<!DOCTYPE html> <html> <head> <title>Title of the document</title> </head>  <body> The content of the document...... </body>  </html>"," "," "," "
