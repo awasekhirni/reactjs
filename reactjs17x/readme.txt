@@ -8,7 +8,10 @@ Table of Contents (Examples projects => covering topics)
 4. cpfour => Nested Components + Inverse Data Flow using props.
 5. cpfive => Reusable components demo using json properties, divstyle. (button, panels) https://codesandbox.io/s/determined-ritchie-25fgp
 6. cpsix => Demo 6: React State and Event Properties demo using React.useState()
-7. cpseven=>
+7. cpseven=> Demo 7: React State AntiPattern demo, the use of Refs React.useRef() method to persist the previous state or access the html_ref element values 
+        - React.useState(), React.useRef()
+        - Count the number of times a component is rendered on update/state change
+
 8. cpeight=>
 9. cpnine=>
 10.cpten=>
