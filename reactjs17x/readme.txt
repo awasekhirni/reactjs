@@ -12,7 +12,8 @@ Table of Contents (Examples projects => covering topics)
         - React.useState(), React.useRef()
         - Count the number of times a component is rendered on update/state change
 
-8. cpeight=>
+8. cpeight=> Demo 8: React hooks - demo React.useEffect() - old lifecycle methods rendering order (8 scenarios)
+     - lifecycle hooks (8 scenarios) 
 9. cpnine=>
 10.cpten=>
 11. cpeleven=>
