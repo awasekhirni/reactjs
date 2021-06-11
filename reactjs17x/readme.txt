@@ -14,7 +14,8 @@ Table of Contents (Examples projects => covering topics)
 
 8. cpeight=> Demo 8: React hooks - demo React.useEffect() - old lifecycle methods rendering order (8 scenarios)
      - lifecycle hooks (8 scenarios) 
-9. cpnine=>
+9. cpnine=> Demo 9: Fetching data from external API using  react hooks and rendering the data using React.useEffect 
+       - using Fetch and Axios asynchronous
 10.cpten=>
 11. cpeleven=>
 12. cptwelve=>
