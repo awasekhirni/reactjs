@@ -19,8 +19,8 @@ Table of Contents (Examples projects => covering topics)
        - using Fetch and Axios asynchronous
 10.cpten=>Demo 10: React Router Demo using bulma and axios asynchronous web api calls using React.useEffect()
 11. cpeleven=>Demo 11: React CRUD Example with React-Router with bootstrap, rxjs, mockbackend
-12. cptwelve=>
-13. cpthirteen => 
+12. cptwelve=> demo 12: ReactJS Shopping Cart Example
+13. cpthirteen => demo 13- ReactJS Formik, yup, custom forms rendering using materialize themes
 14. cpfourteen => 
 15. cpfifteen => 
 16. cpsixteen => 
