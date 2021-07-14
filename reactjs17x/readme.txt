@@ -2,7 +2,22 @@
 Copyright 2019-20 Syed Awase Khirni awasekhirni@gmail.com 
 Original Series 
 
-Table of Contents (Examples projects => covering topics)
+React Hooks list 
+1. useState()
+2. useEffect()
+3. useContext()
+4. useReducer()
+5. useCallback()
+6. useMemo()
+7. useRef()
+8. useDispatch()
+9. useSelector()
+20. useImperativeHandle()
+21. useLayoutEffect()
+22. useDebugValue()
+23. Writing Custom hooks.
+
+Table of Contents (Examples projects => covering various scenarios)
 1.cpone => nested components example with rafe using bootstrap 
 2. cptwo => nested components example with rafce using materialize-css, react-script-tag 
 3. cpthree => one way binding with rce (react class export) + model+ map iterator to iterate over a list of users
